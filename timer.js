@@ -23,8 +23,6 @@ function startaction(){
             leftTime.innerText = "タイムアップ";
         } else {
             leftTime.innerText = String(Number(minute))+"分" + String(Number(second))+"秒";
-            console.log(second)
-            console.log(minute)
         }
     }, 1000)
 }
