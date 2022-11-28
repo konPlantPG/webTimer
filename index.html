@@ -11,12 +11,13 @@
 
     
     <h1>セットタイマー</h1>
-    <p>残り時間</p>
+    <h2>セット時間</h2>
+    分<input id="minute" value="0" min="0" max="200" step="1">
+    秒<input id="second" value="0" min="0" max="59" step="1">
+    <p>残り時間</p> <p id="time"></p>
     <button id="start">スタート</button>
-    <button id="stop">ストップ</button>
-    <button id="reset">リセット</button>
     
     <script src="timer.js"></script>
-    
+
 </body>
 </html>
